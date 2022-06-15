@@ -7,3 +7,18 @@ Ts's type system only helps during development (i.e. before the code gets compil
 Js is dynamically typed which means it's perfectly fine when a variable which initially might hold a number later is assign a string to it.
 
 Ts is statically typed which means it need definition for the types of variables and parameters ends on during development.
+
+Initialize setup
+
+```typescript
+tsc --init
+
+// create .js for all .ts
+tsc
+```
+
+Using watch mode
+
+```typescript
+tsc [filename.ts] -w
+```
