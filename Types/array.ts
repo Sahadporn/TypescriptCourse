@@ -5,6 +5,7 @@ const person3 = {
 }
 
 let favActivities: string[]
+let arr: Array<string>
 favActivities = ['sing', 'dance']
 
 console.log(person3.hobbies)

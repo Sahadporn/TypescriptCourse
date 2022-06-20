@@ -22,3 +22,19 @@ Using watch mode
 ```typescript
 tsc [filename.ts] -w
 ```
+
+## tsconfig.json
+
+"Lib": [
+    // all core vanilla js
+    "dom",
+    "es6",
+    "dom.iterable",
+    "scripthost"
+] -> option that allows you to specify which default objects and features typescript knows
+
+"sourceMap" -> help with debugging and developing
+"outDir" -> setting dist folder
+"rootDir" -> setting source folder
+"noEmitOnError" -> conpiling file despite having errors
+"strict" -> enables all strict type checking options

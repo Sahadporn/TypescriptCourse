@@ -1,6 +1,6 @@
 // Automatically enumerated global constant identifiers
 
-// by defualt number will be auto assign 0, 1, 2,....
+// by defualt number will be auto assign 0, 1, 2,...., n
 // to be more specific -> {MASCOT = 12, USER = 'USER'}
 enum Role {MASCOT, USER} 
 

@@ -22,7 +22,10 @@ const person4: {
     role: [2, 'mascot']
 }
 
-// but is still doable which is not good
+person4.role[0] = 0
+// person4.role[0] = "zero"
+
+// but push is still doable which is not good
 person4.role.push('admin')
 
 console.log(person4.role)
